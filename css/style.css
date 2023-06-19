@@ -3,3 +3,21 @@
     height: 3px;
     background: #1E060699;
 }
+
+.banner {
+    background-color: #EEE4DB;
+    position: absolute;
+    width: 1180px;
+    height: 411px;
+    left: 110px;
+    top: 231px;
+}
+
+.banner__img {
+    position: absolute;
+    width: 635.49px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+}
+
