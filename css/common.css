@@ -32,6 +32,30 @@ button {
     margin: 0 auto;
 }
 
+.btn {
+    background: #000;
+    display: inline-flex;
+    padding: 9px 22px;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button {
+    background: #000;
+    display: inline-flex;
+    padding: 9px 22px;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 
 .undotted {
     list-style-type: none;
@@ -39,6 +63,25 @@ button {
 
 /* header */
 
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 129px;
+}
+
+.header__logo {
+    margin-right: 25px;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 20.02px;
+}
+
+.header__list--left{
+    margin-right: auto
+}
 
 .header__list-link {
     color: var(--black, #1E0606);
