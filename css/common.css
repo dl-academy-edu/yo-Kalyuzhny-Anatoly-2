@@ -9,6 +9,10 @@
     line-height: normal;
 }
 
+* html, body {
+    height: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -33,27 +37,17 @@ button {
 }
 
 .btn {
-    background: #000;
-    display: inline-flex;
-    padding: 9px 22px;
-    align-items: center;
-    gap: 10px;
     color: #FFF;
     text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     text-transform: uppercase;
-}
-
-.button {
     background: #000;
-    display: inline-flex;
     padding: 9px 22px;
-    align-items: center;
-    gap: 10px;
-    color: #FFF;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
+    margin: 20px 133px;
 }
 
 
@@ -79,7 +73,7 @@ button {
     column-gap: 20.02px;
 }
 
-.header__list--left{
+.header__list--left {
     margin-right: auto
 }
 
@@ -101,11 +95,53 @@ button {
 
 
 .footer {
-    background-color: #434343;;
+    display: flex ;
+    margin-top: 500px;
+    background-color: #434343;
+    height: 555px;
+
+    
+
+}
+
+.footer__navigation {
+    margin-top: 100px;
+    float: left;
+    
+
+
+}
+
+.footer__more {
+    margin-top: 100px;
+    margin-left: 320px;
+    float: left;
+
+  
+
+}
+
+.footer__social {
+    margin-top: 100px;
+    margin-left: 233px;
+    float: left;
+
 }
 
 .footer__navigation-title {
+    padding-bottom: 23px;
     color: #AAA;
+    border-bottom:
+        1px
+        solid
+        #666;
+}
+
+.footer__navigation-list {
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
 }
 
 .footer__navigation-list_link {
@@ -113,7 +149,19 @@ button {
 }
 
 .footer__more-title {
+    padding-bottom: 23px;
     color: #AAA;
+    border-bottom:
+        1px
+        solid
+        #666;
+}
+
+.footer__more-list {
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
 }
 
 .footer__more-list_link {
@@ -121,15 +169,38 @@ button {
 }
 
 .footer__social-title {
+    padding-bottom: 23px;
     color: #AAA;
+    border-bottom:
+        1px
+        solid
+        #666;
 }
 
-.footer__more-list_link {
-    color: #FFF;
+.footer__form-list {
+
 }
 
-.footer__more-list_link {
+.footer__form-list_item {
+
+}
+.footer__form-list_input {
+    margin-top: 25px;
+    padding: 9px 5px 9px 15px;
+    background: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.footer__social-list {
     color: #FFF;
+    display: flex;
+    margin-top: 25px;
+    column-gap: 10px;
+}
+
+.footer__form-button {
+    margin-left: -20px;
 }
 
 .footer__more-list_link {
