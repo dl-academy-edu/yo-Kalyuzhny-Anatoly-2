@@ -209,13 +209,17 @@
     column-gap: 127px;
 }
 
+.description {
+    margin-top: 116px;
+    display: flex;
+    column-gap: 57px;
+}
+
 
 .description__desc {
-    margin-top: 116px;
     background: #E1F0F7;
     width: 543px;
     height: 228px;
-    float: left;
 }
 
 .description__desc-title {
@@ -262,9 +266,7 @@
 
 
 .description__contacts {
-    margin-top: 116px;
     margin-right: 37px;
-    float: right;
     background: #E1F0F7;
     width: 543px;
     height: 209px;
