@@ -1,0 +1,68 @@
+* {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact     {
+    max-width: 680px;
+    background: #E5EAF8;
+}
+
+.contact__form {
+    padding: 42px 40px 42px 40px;
+}
+
+.contact__name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    border-color: #FFFFFF;
+}
+
+.contact__wrap {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.contact__wrap-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact__wrap-inner_email {
+    height: 40px;
+    border-color: #FFFFFF;
+}
+
+.contact__wrap-inner_phone {
+    height: 40px;
+    border-color: #FFFFFF;
+}
+
+.contact__message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    border-color: #FFFFFF;
+}
+
+.contact__checkbox {
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    column-gap: 15px;
+    border: none;
+}
+
+.contact__button {
+    margin-top: 20px;
+    margin-left: 0px ;
+}

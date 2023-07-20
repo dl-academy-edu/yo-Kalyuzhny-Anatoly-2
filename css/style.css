@@ -1,9 +1,8 @@
 .banner {
     background-color: #EEE4DB;
+    position: relative;
     width: 1180px;
     height: 411px;
-    left: 110px;
-    top: 231px;
 }
 
 .banner__number {
@@ -22,16 +21,17 @@
     position: absolute;
     width: 635.49px;
     height: 461px;
-    left: 555px;
-    top: 142px;
+    left: 445px;
+    top: -88px;
 }
 
 .banner__button {
     width: 30.999px;
     height: 45px;
     flex-shrink: 0;
-    padding-top: 10px;
-    padding-left: 31px;
+    margin-top: 10px;
+    margin-left: 31px;
+    background-color: #EEE4DB;
 }
 
 .banner__btn {
@@ -43,7 +43,8 @@
     color: var(--black, #1E0606);
     font-size: 40px;
     font-weight: 700;
-    line-height: 110%; 
+    line-height: 110%;
+    margin-top: -50px;
     margin-bottom: 20px;
     padding-left: 131px;
 }
@@ -63,7 +64,7 @@
     color: #FFF;
     padding: 11px 364px;
     margin: 0px 0px;
-    margin-top: 9px; 
+    margin-top: 58px; 
     text-align: center;
     font-size: 12px;
     font-weight: 700;

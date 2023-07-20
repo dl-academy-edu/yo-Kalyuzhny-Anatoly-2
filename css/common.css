@@ -90,40 +90,49 @@ button {
     text-transform: uppercase;
 }
 
+.header__btn {
+    background: white;
+}
+
 
 /* footer */
 
 
 .footer {
     display: flex ;
+    margin-top: 155px;
     background-color: #434343;
     height: 555px;
+}
 
-    
+.footer__section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    border-bottom:
+        1px
+        solid
+        #666;
 
 }
 
 .footer__navigation {
     margin-top: 100px;
-    float: left;
-    
-
-
+    margin-bottom: 28px;
+    width: 400px;
+    flex-grow: 1;
 }
 
 .footer__more {
+    width: 400px;
     margin-top: 100px;
-    margin-left: 320px;
-    float: left;
-
-  
-
+    flex-grow: 1;
 }
 
 .footer__social {
+    width: 400px;
     margin-top: 100px;
-    margin-left: 233px;
-    float: left;
+    flex-grow: 1
 
 }
 
@@ -176,16 +185,14 @@ button {
         #666;
 }
 
-.footer__form-list {
+.footer__social-form {
+    padding-top: 25px;
+    display: flex;
 
 }
 
-.footer__form-list_item {
-
-}
-.footer__form-list_input {
-    margin-top: 25px;
-    padding: 9px 5px 9px 15px;
+.footer__social-form_input {
+    padding: 9px 60px 9px 15px;
     background: #666;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -198,14 +205,15 @@ button {
     column-gap: 10px;
 }
 
-.footer__form-button {
-    margin-left: -20px;
+.footer__social-form_button {
+    margin: 0px;
+
 }
 
-.footer__more-list_link {
-    color: #FFF;
+.footer__rating {
+    display: flex;
 }
 
-.footer__more-list_link {
-    color: #FFF;
+.footer__rating-list {
+    display: flex;
 }
